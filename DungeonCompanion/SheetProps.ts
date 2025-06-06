@@ -25,7 +25,7 @@ type SavingThrows = {
     charisma: Skill;
 };
 
-type Skills {
+type Skills = {
     acrobatics: Skill;
     animalHandling: Skill;
     arcana: Skill;
@@ -44,7 +44,7 @@ type Skills {
     sleightOfHand: Skill;
     stealthh: Skill;
     survival: Skill;
-}
+};
 
 type DeathSaves = {
     successOne: Boolean;
@@ -72,7 +72,7 @@ type Personality = {
     ideals: String;
     bonds: String;
     flaws: String;
-}
+};
 
 type Money = {
     copperPieces: Number;
@@ -80,7 +80,7 @@ type Money = {
     electrumPieces: Number;
     goldPieces: Number;
     platinumPieces: Number;
-}
+};
 
 type Appearance = {
     age: Number;
@@ -90,11 +90,11 @@ type Appearance = {
     weight: String;
     hair: String;
     description: String;
-}
+};
 
 type AlliesAndOrganizations = {
     description: String;
-}
+};
 
 type Spell = {
     name: String;
@@ -105,14 +105,14 @@ type Spell = {
     duration: String;
     components: String;
     description: String;
-}
+};
 
 type SpellLevel = {
     name: String;
     availableSpellSlots: Number;
     expendedSpellSlots: Number;
     spells: Spell[];
-}
+};
 
 type Spellcasting = {
     spellcastingClass: String;
@@ -129,7 +129,7 @@ type Spellcasting = {
     levelSevenSpells: SpellLevel;
     levelEightSpellls: SpellLevel;
     levelNineSpells: SpellLevel;
-}
+};
 
 type CharacterSheet = {
     characterName: String;
